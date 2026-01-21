@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Email Sender</title>
+    <style>
+        body { font-family: Arial; max-width: 600px; margin: auto; padding: 20px; }
+        input, textarea { width: 100%; margin-bottom: 10px; padding: 8px; }
+        button { padding: 10px 20px; font-size: 16px; }
+    </style>
+</head>
+<body>
+    <h1>CSV Email Sender</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <label>Upload CSV File:</label>
+        <input type="file" name="csv_file" accept=".csv" required>
+
+        <label>Email Subject:</label>
+        <input type="text" name="subject" placeholder="Enter email subject" required>
+
+        <label>Email Body:</label>
+        <textarea name="body" rows="6" placeholder="Enter email body. Use {name} to personalize"></textarea>
+
+        <button type="submit">Send Emails</button>
+    </form>
+</body>
+</html>
