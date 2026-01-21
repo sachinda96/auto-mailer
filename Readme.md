@@ -174,7 +174,3 @@ test2@example.com,Jane
 - Dashboard to track sent/failed emails in real-time.  
 - Email template editor in the web UI.  
 - Multiple email account support selectable from the UI.  
-
----
-
-## L
